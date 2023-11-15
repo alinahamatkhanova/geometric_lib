@@ -7,7 +7,7 @@ class RectangleTestCase(unittest.TestCase):
 
     def test_rectangle_area_zloy(self):
         res = area(4, -6)
-        self.assertEqual(res, 'Стороны прямоугольника не могут быть отрицательными')
+        self.assertEqual(res, 'The sides of the rectangle cannot be negative')
 
     def test_rectangle_area_real(self):
         res = area(4.4, 6.6)
@@ -23,7 +23,7 @@ class RectangleTestCase(unittest.TestCase):
 
     def test_rectangle_perimeter_zloy(self):
         res = perimeter(4, -6)
-        self.assertEqual(res, 'Стороны прямоугольника не могут быть отрицательными')
+        self.assertEqual(res, 'The sides of the rectangle cannot be negative')
 
     def test_rectangle_perimeter_real(self):
         res = perimeter(4.4, 6.6)

@@ -7,7 +7,7 @@ class TriangleTestCase(unittest.TestCase):
 
     def test_triangle_area_zloy(self):
         res = area(5, -7)
-        self.assertEqual(res, 'Основание и высота не могут быть отрицательными')
+        self.assertEqual(res, 'The base and height cannot be negative')
 
     def test_triangle_area_real(self):
         res = area(5.5, 7.7)
@@ -23,7 +23,7 @@ class TriangleTestCase(unittest.TestCase):
 
     def test_triangle_perimeter_zloy(self):
         res = perimeter(5, -6, 7)
-        self.assertEqual(res, 'Стороны треугольника не могут быть отрицательными')
+        self.assertEqual(res, 'The base and height cannot be negative')
 
     def test_triangle_perimeter_real(self):
         res = perimeter(5.5, 6.6, 7)
